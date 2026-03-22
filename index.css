@@ -34,3 +34,20 @@ body {
 .text-shadow-neon {
   text-shadow: 0 0 5px currentColor, 0 0 10px currentColor;
 }
+
+/* Telegram Mini App Safe Area Support for true Fullscreen */
+.safe-top-4 {
+  top: calc(1rem + var(--tg-safe-area-inset-top, env(safe-area-inset-top, 0px))) !important;
+}
+.safe-top-2 {
+  top: calc(0.5rem + var(--tg-safe-area-inset-top, env(safe-area-inset-top, 0px))) !important;
+}
+.safe-pt {
+  padding-top: var(--tg-safe-area-inset-top, env(safe-area-inset-top, 0px)) !important;
+}
+.safe-pb {
+  padding-bottom: var(--tg-safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)) !important;
+}
+.safe-bottom-2 {
+  bottom: calc(0.5rem + var(--tg-safe-area-inset-bottom, env(safe-area-inset-bottom, 0px))) !important;
+}

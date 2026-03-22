@@ -129,7 +129,7 @@ const Shop: React.FC<Props> = ({
   const displayThemes = filterAndSortItems(DEFAULT_COLLECTIBLES.filter(c => c.type === 'theme'), unlockedCollectibles);
 
   return (
-    <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md animate-in fade-in duration-300">
+    <div className="absolute inset-0 z-50 flex items-center justify-center p-4 safe-pt safe-pb bg-black/80 backdrop-blur-md animate-in fade-in duration-300">
       <div 
         className="glass-panel w-full max-w-5xl max-h-[90vh] flex flex-col rounded-2xl border shadow-2xl overflow-hidden relative transition-colors duration-500"
         style={{ borderColor: `${themeColor}40`, boxShadow: `0 0 50px ${themeColor}20` }}

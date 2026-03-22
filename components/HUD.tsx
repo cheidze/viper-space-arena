@@ -176,7 +176,7 @@ const HUD: React.FC<Props> = ({
   return (
     <div className="absolute inset-0 pointer-events-none z-40">
       {/* Top Left: Minimap */}
-      <div className="absolute top-2 left-2 md:top-4 md:left-4 pointer-events-auto">
+      <div className="absolute safe-top-2 left-2 md:top-4 md:left-4 pointer-events-auto">
         <div
           className="glass-panel rounded-lg p-1 animate-in fade-in slide-in-from-left-10 duration-500 border-l-2"
           style={{ borderLeftColor: themeColor }}
@@ -191,7 +191,7 @@ const HUD: React.FC<Props> = ({
       </div>
 
       {/* Top Right: Leaderboard & Menu */}
-      <div className="absolute top-2 right-2 w-[140px] md:w-[180px] pointer-events-auto flex flex-col gap-2">
+      <div className="absolute safe-top-2 right-2 w-[140px] md:w-[180px] pointer-events-auto flex flex-col gap-2">
         {/* Menu Button */}
         <button
           onClick={onReturnToMenu}
@@ -248,7 +248,7 @@ const HUD: React.FC<Props> = ({
       </div>
 
       {/* Bottom Right: Compact Stats */}
-      <div className="absolute bottom-2 right-2 md:bottom-4 md:right-4">
+      <div className="absolute safe-bottom-2 right-2 md:bottom-4 md:right-4">
         <div
           className="glass-panel rounded-lg px-3 py-2 flex flex-col min-w-[130px] animate-in fade-in slide-in-from-right-10 duration-500 border-r-2 scale-95 origin-bottom-right"
           style={{ borderRightColor: themeColor }}

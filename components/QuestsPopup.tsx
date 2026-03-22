@@ -118,7 +118,7 @@ const QuestsPopup: React.FC<Props> = ({ onClose, themeColor = '#00f3ff', playerD
   };
 
   return (
-    <div className="fixed inset-0 z-[300] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4" onClick={onClose}>
+    <div className="fixed inset-0 z-[300] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 safe-pt safe-pb" onClick={onClose}>
       <div 
         className="w-full max-w-lg bg-gray-900 border-2 rounded-2xl shadow-[0_0_30px_rgba(0,0,0,0.8)] overflow-hidden flex flex-col animate-in zoom-in-95 duration-300"
         style={{ borderColor: `${themeColor}60` }}

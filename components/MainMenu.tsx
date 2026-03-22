@@ -663,7 +663,7 @@ const MainMenu: React.FC<Props> = ({
           <div className="flex flex-col items-center w-full animate-in fade-in slide-in-from-bottom-8 duration-500">
             
             {/* Floating Action Buttons (Right Side of Screen) */}
-            <div className="fixed top-4 right-4 md:right-8 flex flex-col gap-4 z-50">
+            <div className="fixed safe-top-4 right-4 md:right-8 flex flex-col gap-4 z-50">
               {/* Quests/Daily Check-in Floating Button */}
               <button
                 onClick={() => {
