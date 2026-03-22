@@ -86,6 +86,14 @@ function App() {
   // Initialize Auth & Global Config
   useEffect(() => {
     const init = async (user: UserProfile | null) => {
+      // Auto-login with Telegram if possible
+      if (!user && WebApp.initDataUnsafe?.user) {
+        const res = await authService.loginWithTelegram(WebApp.initDataUnsafe.user);
+        if (res.success && res.user) {
+          user = res.user;
+        }
+      }
+
       if (user) {
         setCurrentUser(user);
         setPlayerData(await loadPlayerData(user.id));

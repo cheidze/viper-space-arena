@@ -246,6 +246,64 @@ class AuthService {
     return { success: false, message: "Google login is disabled in local mode." };
   }
 
+  public async loginWithTelegram(telegramUser: any): Promise<{ success: boolean; message: string; user?: UserProfile }> {
+    try {
+      const users = this.getAllUsers();
+      const tgIdStr = telegramUser.id.toString();
+      const tgEmail = `tg_${tgIdStr}@telegram.org`; 
+      let userIndex = users.findIndex(u => u.email === tgEmail);
+
+      const baseUsername = telegramUser.username || telegramUser.first_name || `Pilot_${tgIdStr.slice(-4)}`;
+      // Keep it under 12 characters as required by the frontend
+      const username = baseUsername.slice(0, 12);
+
+      if (userIndex === -1) {
+        // Register new user
+        const ipInfo = await this.fetchIpInfo();
+        const newUser: StoredUser = {
+            id: tgIdStr,
+            email: tgEmail,
+            username: username,
+            password: 'tg_auto_generated_pass',
+            createdAt: Date.now(),
+            ip: ipInfo.ip,
+            country: ipInfo.country,
+            city: ipInfo.city,
+            lastLogin: Date.now(),
+            isBanned: false,
+            termsAccepted: true,
+            device: 'Telegram Mini App',
+            gender: 'other',
+            dob: { day: '1', month: '1', year: '2000' }
+        };
+        users.push(newUser);
+        this.saveAllUsers(users);
+        userIndex = users.length - 1;
+      }
+
+      const user = users[userIndex];
+
+      if (user.isBanned) {
+        return { success: false, message: "ACCOUNT SUSPENDED. Contact Support." };
+      }
+
+      const ipInfo = await this.fetchIpInfo();
+      user.lastLogin = Date.now();
+      user.ip = ipInfo.ip;
+      user.country = ipInfo.country;
+      user.city = ipInfo.city;
+      
+      this.saveAllUsers(users);
+      
+      const { password, ...profile } = user;
+      this.setCurrentUser(profile);
+      
+      return { success: true, message: "Telegram auto-login successful", user: profile };
+    } catch (e: any) {
+      return { success: false, message: "Telegram auto-login failed." };
+    }
+  }
+
   public async logout() {
       this.setCurrentUser(null);
   }
