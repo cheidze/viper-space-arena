@@ -742,11 +742,11 @@ const MainMenu: React.FC<Props> = ({
               />
             </div>
             
-            <div className="w-full flex justify-center mb-6">
+            <div className="w-full flex justify-center mb-4">
               <TonConnectButton />
             </div>
 
-            <div className="flex items-center gap-2 w-72 mb-4 transform transition-all z-20">
+            <div className="flex items-center gap-2 w-full max-w-[300px] sm:max-w-xs mb-4 transform transition-all z-20">
               <button
                 onClick={() => setShowCountrySelector(true)}
                 className="w-16 h-14 flex items-center justify-center bg-black/60 border-b-2 transition-all rounded-lg overflow-hidden hover:bg-white/10"
@@ -771,7 +771,7 @@ const MainMenu: React.FC<Props> = ({
             {/* PLAY BUTTON */}
             <button
               onClick={handleStart}
-              className="w-72 h-16 mb-4 relative group focus:outline-none"
+              className="w-full max-w-[300px] sm:max-w-xs h-16 mb-4 relative group focus:outline-none"
             >
               <div
                 className="absolute inset-0 rounded-xl blur opacity-60 group-hover:opacity-100 group-hover:blur-md transition-all duration-300 animate-pulse"
@@ -801,7 +801,7 @@ const MainMenu: React.FC<Props> = ({
                 audioService.playClick();
                 onOpenShop();
               }}
-              className="w-64 h-14 mb-3 relative group focus:outline-none transition-transform duration-300 hover:scale-[1.05]"
+              className="w-full max-w-[300px] sm:max-w-xs h-14 mb-3 relative group focus:outline-none transition-transform duration-300 hover:scale-[1.05]"
             >
               <div
                 className="relative h-full bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-300"
@@ -831,7 +831,7 @@ const MainMenu: React.FC<Props> = ({
                 audioService.playClick();
                 onStart("Spectator");
               }}
-              className="w-64 h-14 mb-3 relative group focus:outline-none transition-transform duration-300 hover:scale-[1.05]"
+              className="w-full max-w-[300px] sm:max-w-xs h-14 mb-3 relative group focus:outline-none transition-transform duration-300 hover:scale-[1.05]"
             >
               <div
                 className="relative h-full bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-300"

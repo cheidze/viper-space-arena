@@ -57,6 +57,15 @@ function App() {
   useEffect(() => {
     WebApp.ready();
     WebApp.expand();
+    try {
+      if ((WebApp as any).requestFullscreen) {
+        (WebApp as any).requestFullscreen();
+      }
+      WebApp.setHeaderColor('#050510');
+      WebApp.setBackgroundColor('#050510');
+    } catch (e) {
+      console.warn("Fullscreen extended features unavailable", e);
+    }
   }, []);
 
   const [gameState, setGameState] = useState<
