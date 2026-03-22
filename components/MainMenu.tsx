@@ -718,9 +718,14 @@ const MainMenu: React.FC<Props> = ({
                     <span className="text-xs text-gray-400 uppercase">
                       Pilot
                     </span>
-                    <span className="font-bold text-white text-lg">
+                    <span className="font-bold text-white text-lg leading-tight">
                       {currentUser.username}
                     </span>
+                    {currentUser.telegramUsername && (
+                      <span className="text-xs text-blue-400 font-mono tracking-wider font-bold">
+                        {currentUser.telegramUsername}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -1035,9 +1040,16 @@ const MainMenu: React.FC<Props> = ({
                 </div>
               ) : (
                 <div className="flex items-center justify-center gap-2 mb-2">
-                  <h2 className="text-2xl font-bold text-white uppercase tracking-wider">
-                    {currentUser.username}
-                  </h2>
+                  <div className="flex flex-col">
+                    <h2 className="text-2xl font-bold text-white uppercase tracking-wider mb-0 leading-none">
+                      {currentUser.username}
+                    </h2>
+                    {currentUser.telegramUsername && (
+                      <span className="text-sm text-blue-400 font-mono text-center">
+                        {currentUser.telegramUsername}
+                      </span>
+                    )}
+                  </div>
                   <button 
                     onClick={() => {
                       setEditUsernameInput(currentUser.username);

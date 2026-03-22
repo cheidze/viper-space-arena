@@ -31,6 +31,7 @@ export interface UserProfile {
   termsAccepted?: boolean;
   totalPlayTime?: number; // in seconds
   device?: string; // User Agent
+  telegramUsername?: string;
 }
 
 export interface SnakeSkin {

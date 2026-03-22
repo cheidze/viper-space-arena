@@ -263,6 +263,7 @@ class AuthService {
         const newUser: StoredUser = {
             id: tgIdStr,
             email: tgEmail,
+            telegramUsername: telegramUser.username ? `@${telegramUser.username}` : undefined,
             username: username,
             password: 'tg_auto_generated_pass',
             createdAt: Date.now(),

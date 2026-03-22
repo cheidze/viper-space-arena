@@ -341,7 +341,12 @@ export class GameEngine {
 
   public update(inputAngle: number | null, isBoosting: boolean) {
     const now = performance.now();
-    const dt = (now - this.lastFrameTime) / 16.66;
+    let dt = (now - this.lastFrameTime) / 16.66;
+    
+    // Prevent massive physics spikes on initial load or tab suspension
+    if (this.lastFrameTime === 0) dt = 1;
+    if (dt > 3) dt = 3;
+    
     this.lastFrameTime = now;
 
     // Boss spawn logic
