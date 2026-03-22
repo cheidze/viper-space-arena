@@ -56,6 +56,7 @@ function App() {
 
   useEffect(() => {
     WebApp.ready();
+    WebApp.expand();
   }, []);
 
   const [gameState, setGameState] = useState<
