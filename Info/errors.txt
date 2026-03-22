@@ -1,0 +1,209 @@
+
+XHR
+POST
+https://snakeonton-production.up.railway.app/api/create-invoice
+[HTTP/2 500  258ms]
+
+[PaymentService] Create invoice error: Error: Failed to create invoice
+    createFiatInvoice https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    _ https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    onClick https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    $f https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    eo https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ys https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    jm https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    Ff https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    Pc https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    createRoot https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    <anonymous> https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+index-l51NO5_4.js:49:102327
+XHR
+POST
+https://snakeonton-production.up.railway.app/api/create-invoice
+[HTTP/2 500  79ms]
+
+[PaymentService] Create invoice error: Error: Failed to create invoice
+    createFiatInvoice https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    _ https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    onClick https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    $f https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    eo https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ys https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    jm https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    Ff https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    Pc https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    createRoot https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    <anonymous> https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+index-l51NO5_4.js:49:102327
+XHR
+POST
+https://snakeonton-production.up.railway.app/api/create-invoice
+[HTTP/2 500  323ms]
+
+[PaymentService] Create invoice error: Error: Failed to create invoice
+    createFiatInvoice https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    _ https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    onClick https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    $f https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    eo https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ys https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    jm https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    Ff https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    Pc https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    createRoot https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    <anonymous> https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+index-l51NO5_4.js:49:102327
+    createFiatInvoice https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    _ https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    onClick https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    $f https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    eo https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ts https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    ys https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    jm https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    (Async: EventListener.handleEvent)
+    Ff https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    Pc https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    es https://snakeonton.vercel.app/assets/index-l51NO5_4.js:48
+    createRoot https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+    <anonymous> https://snakeonton.vercel.app/assets/index-l51NO5_4.js:49
+
+​
+
+ვამატებ რაილვეიდან დეპლოი კონსოლიდან 
+2026-03-05T23:58:28.281156608Z [inf]  Starting Container
+2026-03-05T23:58:29.402468456Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-03-05T23:58:29.402476997Z [inf]  
+2026-03-05T23:58:29.402483951Z [inf]  > snake-ton-backend@1.0.0 start
+2026-03-05T23:58:29.402490748Z [inf]  > node index.js
+2026-03-05T23:58:29.402497222Z [inf]  
+2026-03-05T23:58:29.402503395Z [inf]  🤖 Telegram Bot started.
+2026-03-05T23:58:29.402510991Z [err]  (node:25) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-03-05T23:58:29.402520581Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-05T23:58:29.402530420Z [inf]  🚀 API Server running on port 8080
+2026-03-05T23:58:33.370759107Z [err]    response: {
+2026-03-05T23:58:33.370767048Z [err]  
+2026-03-05T23:58:33.370771851Z [err]      ok: false,
+2026-03-05T23:58:33.370780418Z [err]      error_code: 409,
+2026-03-05T23:58:33.370781276Z [err]  TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-03-05T23:58:33.370789333Z [err]      description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2026-03-05T23:58:33.370790350Z [err]      at Telegram.callApi (/app/node_modules/telegraf/lib/core/network/client.js:315:19)
+2026-03-05T23:58:33.370796117Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-03-05T23:58:33.370801581Z [err]      at async [Symbol.asyncIterator] (/app/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2026-03-05T23:58:33.370809106Z [err]      at async Polling.loop (/app/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2026-03-05T23:58:33.370814005Z [err]    },
+2026-03-05T23:58:33.370819417Z [err]      at async Telegraf.launch (/app/node_modules/telegraf/lib/telegraf.js:194:13) {
+2026-03-05T23:58:33.370822495Z [err]    on: {
+2026-03-05T23:58:33.370828243Z [err]      method: 'getUpdates',
+2026-03-05T23:58:33.370833091Z [err]      payload: { timeout: 50, offset: 0, allowed_updates: [] }
+2026-03-05T23:58:33.370847373Z [err]    }
+2026-03-05T23:58:33.370865173Z [err]  }
+2026-03-05T23:58:33.370874943Z [err]  
+2026-03-05T23:58:33.370887254Z [err]  Node.js v22.22.1
+2026-03-05T23:58:33.370983477Z [err]  /app/node_modules/telegraf/lib/core/network/client.js:315
+2026-03-05T23:58:33.370990821Z [err]              throw new error_1.default(data, { method, payload });
+2026-03-05T23:58:33.370997714Z [err]                    ^
+2026-03-05T23:58:34.348768046Z [inf]  
+2026-03-05T23:58:34.348805990Z [err]  npm warn config production Use `--omit=dev` instead.
+2026-03-05T23:58:34.348812334Z [inf]  
+2026-03-05T23:58:34.348818116Z [inf]  > snake-ton-backend@1.0.0 start
+2026-03-05T23:58:34.348824373Z [inf]  > node index.js
+2026-03-05T23:58:34.545932314Z [inf]  🤖 Telegram Bot started.
+2026-03-05T23:58:34.567472238Z [err]  (node:25) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-03-05T23:58:34.567480808Z [err]  (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-05T23:58:34.568815813Z [inf]  🚀 API Server running on port 8080
+2026-03-05T23:58:54.576609755Z [err]        '4': '0',
+2026-03-05T23:58:54.576620901Z [err]        '5': '0',
+2026-03-05T23:58:54.576628062Z [err]        '6': ' ',
+2026-03-05T23:58:54.576634066Z [err]        '7': 'G',
+2026-03-05T23:58:54.576639247Z [err]        '8': 'o',
+2026-03-05T23:58:54.576646063Z [err]        '9': 'l',
+2026-03-05T23:58:54.576651701Z [err]        '10': 'd'
+2026-03-05T23:58:54.576657671Z [err]      }
+2026-03-05T23:58:54.576663368Z [err]    }
+2026-03-05T23:58:54.576669379Z [err]  }
+2026-03-05T23:58:54.576698700Z [inf]  [Payment Request] Generating invoice for 50000 Gold (User: demo_user, Amount: 400 EUR)
+2026-03-05T23:58:54.576706222Z [err]  [Create Invoice Error]: TelegramError: 400: Bad Request: parameter "title" is required
+2026-03-05T23:58:54.576713370Z [err]      at Telegram.callApi (/app/node_modules/telegraf/lib/core/network/client.js:315:19)
+2026-03-05T23:58:54.576722243Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-03-05T23:58:54.576728230Z [err]      at async file:///app/index.js:97:29 {
+2026-03-05T23:58:54.576734973Z [err]    response: {
+2026-03-05T23:58:54.576740424Z [err]      ok: false,
+2026-03-05T23:58:54.576746384Z [err]      error_code: 400,
+2026-03-05T23:58:54.576752431Z [err]      description: 'Bad Request: parameter "title" is required'
+2026-03-05T23:58:54.576758202Z [err]    },
+2026-03-05T23:58:54.576764279Z [err]    on: {
+2026-03-05T23:58:54.576770563Z [err]      method: 'createInvoiceLink',
+2026-03-05T23:58:54.576776901Z [err]      payload: {
+2026-03-05T23:58:54.576783768Z [err]        '0': '5',
+2026-03-05T23:58:54.576790274Z [err]        '1': '0',
+2026-03-05T23:58:54.576797186Z [err]        '2': ',',
+2026-03-05T23:58:54.576803593Z [err]        '3': '0',
+2026-03-05T23:58:56.382624250Z [inf]  [Payment Request] Generating invoice for 50000 Gold (User: demo_user, Amount: 400 EUR)
+2026-03-05T23:58:56.382636565Z [err]  [Create Invoice Error]: TelegramError: 400: Bad Request: parameter "title" is required
+2026-03-05T23:58:56.382646196Z [err]      at Telegram.callApi (/app/node_modules/telegraf/lib/core/network/client.js:315:19)
+2026-03-05T23:58:56.382654121Z [err]    }
+2026-03-05T23:58:56.382655724Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-03-05T23:58:56.382666067Z [err]      at async file:///app/index.js:97:29 {
+2026-03-05T23:58:56.382674888Z [err]  }
+2026-03-05T23:58:56.382678206Z [err]    response: {
+2026-03-05T23:58:56.382687221Z [err]        '7': 'G',
+2026-03-05T23:58:56.382688785Z [err]      ok: false,
+2026-03-05T23:58:56.382701141Z [err]      error_code: 400,
+2026-03-05T23:58:56.382706645Z [err]        '8': 'o',
+2026-03-05T23:58:56.382712093Z [err]      description: 'Bad Request: parameter "title" is required'
+2026-03-05T23:58:56.382712126Z [err]        '0': '5',
+2026-03-05T23:58:56.382722111Z [err]        '9': 'l',
+2026-03-05T23:58:56.382724145Z [err]    },
+2026-03-05T23:58:56.382729125Z [err]        '1': '0',
+2026-03-05T23:58:56.382736064Z [err]        '10': 'd'
+2026-03-05T23:58:56.382736485Z [err]    on: {
+2026-03-05T23:58:56.382741715Z [err]        '2': ',',
+2026-03-05T23:58:56.382749044Z [err]      }
+2026-03-05T23:58:56.382750250Z [err]      method: 'createInvoiceLink',
+2026-03-05T23:58:56.382754187Z [err]        '3': '0',
+2026-03-05T23:58:56.382760322Z [err]      payload: {
+2026-03-05T23:58:56.382763449Z [err]        '4': '0',
+2026-03-05T23:58:56.382772685Z [err]        '5': '0',
+2026-03-05T23:58:56.382778825Z [err]        '6': ' ',
+2026-03-05T23:58:57.366477329Z [err]        '4': '0',
+2026-03-05T23:58:57.366487172Z [err]        '5': '0',
+2026-03-05T23:58:57.366494077Z [err]        '6': ' ',
+2026-03-05T23:58:57.366501089Z [err]        '7': 'G',
+2026-03-05T23:58:57.366534982Z [err]      error_code: 400,
+2026-03-05T23:58:57.366539724Z [inf]  [Payment Request] Generating invoice for 10000 Gold (User: demo_user, Amount: 100 EUR)
+2026-03-05T23:58:57.366544491Z [err]      description: 'Bad Request: parameter "title" is required'
+2026-03-05T23:58:57.366546714Z [err]  [Create Invoice Error]: TelegramError: 400: Bad Request: parameter "title" is required
+2026-03-05T23:58:57.366552844Z [err]      at Telegram.callApi (/app/node_modules/telegraf/lib/core/network/client.js:315:19)
+2026-03-05T23:58:57.366553993Z [err]    },
+2026-03-05T23:58:57.366558818Z [err]      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-03-05T23:58:57.366562955Z [err]    on: {
+2026-03-05T23:58:57.366566867Z [err]      at async file:///app/index.js:97:29 {
+2026-03-05T23:58:57.366571242Z [err]      method: 'createInvoiceLink',
+2026-03-05T23:58:57.366575438Z [err]      payload: {
+2026-03-05T23:58:57.366576176Z [err]    response: {
+2026-03-05T23:58:57.366585988Z [err]      ok: false,
+2026-03-05T23:58:57.366589638Z [err]        '0': '1',
+2026-03-05T23:58:57.366597411Z [err]        '1': '0',
+2026-03-05T23:58:57.366604242Z [err]        '2': ',',
+2026-03-05T23:58:57.366611665Z [err]        '3': '0',
+2026-03-05T23:58:57.366945257Z [err]        '8': 'o',
+2026-03-05T23:58:57.366956941Z [err]        '9': 'l',
+2026-03-05T23:58:57.366964275Z [err]        '10': 'd'
+2026-03-05T23:58:57.366973016Z [err]      }
+2026-03-05T23:58:57.366978380Z [err]    }
+2026-03-05T23:58:57.366983480Z [err]  }

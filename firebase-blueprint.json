@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile data",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "username": { "type": "string" },
+        "picture": { "type": "string" },
+        "gender": { "type": "string" },
+        "dob": {
+          "type": "object",
+          "properties": {
+            "day": { "type": "string" },
+            "month": { "type": "string" },
+            "year": { "type": "string" }
+          }
+        },
+        "createdAt": { "type": "number" },
+        "ip": { "type": "string" },
+        "country": { "type": "string" },
+        "city": { "type": "string" },
+        "isBanned": { "type": "boolean" },
+        "lastLogin": { "type": "number" },
+        "termsAccepted": { "type": "boolean" },
+        "totalPlayTime": { "type": "number" },
+        "device": { "type": "string" }
+      },
+      "required": ["id", "email", "username", "createdAt"]
+    },
+    "PlayerData": {
+      "title": "PlayerData",
+      "description": "Player game data",
+      "type": "object",
+      "properties": {
+        "gold": { "type": "number" },
+        "ton": { "type": "number" },
+        "selectedSkinId": { "type": "string" },
+        "unlockedSkinIds": { "type": "array", "items": { "type": "string" } },
+        "unlockedCollectibles": { "type": "array", "items": { "type": "string" } },
+        "selectedCollectibleId": { "type": "string" },
+        "xp": { "type": "number" },
+        "level": { "type": "number" },
+        "xpToNext": { "type": "number" },
+        "highScore": { "type": "number" },
+        "stats": {
+          "type": "object",
+          "properties": {
+            "gamesPlayed": { "type": "number" },
+            "totalKills": { "type": "number" },
+            "longestSnake": { "type": "number" },
+            "totalPlayTime": { "type": "number" }
+          }
+        },
+        "checkInDays": { "type": "number" },
+        "lastCheckInDate": { "type": "string" },
+        "claimedMissions": { "type": "array", "items": { "type": "string" } },
+        "hasSeenTutorial": { "type": "boolean" }
+      },
+      "required": ["gold", "selectedSkinId", "unlockedSkinIds", "unlockedCollectibles", "xp", "level", "xpToNext", "highScore"]
+    },
+    "GameSettings": {
+      "title": "GameSettings",
+      "description": "Player game settings",
+      "type": "object",
+      "properties": {
+        "soundEnabled": { "type": "boolean" },
+        "soundVolume": { "type": "number" },
+        "musicEnabled": { "type": "boolean" },
+        "musicVolume": { "type": "number" },
+        "graphicsQuality": { "type": "string" },
+        "showNames": { "type": "boolean" },
+        "showMinimap": { "type": "boolean" },
+        "controlType": { "type": "string" },
+        "joystickPosition": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "User profiles"
+    },
+    "/playerData/{userId}": {
+      "schema": { "$ref": "#/entities/PlayerData" },
+      "description": "Player game data"
+    },
+    "/gameSettings/{userId}": {
+      "schema": { "$ref": "#/entities/GameSettings" },
+      "description": "Player game settings"
+    }
+  }
+}
